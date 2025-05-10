@@ -181,7 +181,20 @@
               Your browser does not support the video tag.
             </video>
           </div>
-  
+          <!-- 🟦 Single-Floor Demos -->
+          <h3 class="title is-4" style="text-align: left;">
+            <span class="icon"><i class="fa fa-grip-lines"></i></span>&nbsp; Single-Floor Navigation
+          </h3>
+
+          <div style="margin-bottom: 40px;">
+            <h4 class="subtitle is-5" style="text-align: left;">
+              <span class="icon"><i class="fa fa-search"></i></span>&nbsp; Target Object: <b>Chair</b>
+            </h4>
+            <!-- <h4 class="subtitle is-5">Target Object: <b></b></h4> -->
+            <video controls style="width: 100%; border-radius: 10px;" autoplay muted loop loading="lazy">
+              <source src="./static/videos/same_floor_chair.mp4" type="video/mp4"/>
+            </video>
+          </div>
         </div>
       </div>
     </div>
@@ -418,14 +431,21 @@
                   <!-- Open-set -->
                   <tr style="background-color: #f0f0f0; text-align: center;"><td colspan="9"><b>Setting: Open-Set</b></td></tr>
 
-                  <tr><td rowspan="7">Single-Floor</td><td>ZSON</td><td>NeurIPS'22</td><td>CLIP</td><td>-</td><td>25.5</td><td>12.6</td><td>15.3</td><td>4.8</td></tr>
+                  <tr><td rowspan="14">Single-Floor</td><td>ZSON</td><td>NeurIPS'22</td><td>CLIP</td><td>-</td><td>25.5</td><td>12.6</td><td>15.3</td><td>4.8</td></tr>
                   <tr><td>L3MVN</td><td>IROS'23</td><td>-</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-2</td><td>50.4</td><td>23.1</td><td>34.9</td><td>14.5</td></tr>
                   <tr><td>SemUtil</td><td>RSS'23</td><td>-</td><td>BERT</td><td>54.0</td><td>24.9</td><td>-</td><td>-</td></tr>
+                  <tr><td>CoW</td><td>CVPR'23</td><td>CLIP</td><td>-</td><td>32.0</td><td>18.1</td><td>-</td><td>-</td></tr>
                   <tr><td>ESC</td><td>ICML'23</td><td>-</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-3.5</td><td>39.2</td><td>22.3</td><td>28.7</td><td>14.2</td></tr>
+                  <tr><td>PSL</td><td>ECCV'24</td><td>CLIP</td><td>-</td><td>42.4</td><td>19.2</td><td>-</td><td>-</td></tr>
+                  <tr><td>VoroNav</td><td>ICML'24</td><td>BLIP</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-3.5</td><td>42.0</td><td>26.0</td><td>-</td><td>-</td></tr>
+                  <tr><td>PixNav</td><td>ICRA'24</td><td>LLaMA-Adapter</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-4</td><td>37.9</td><td>20.5</td><td>-</td><td>-</td></tr>
+                  <tr><td>Trihelper</td><td>IROS'24</td><td><img src="./static/images/compressed/qwen.png" width="20px" loading="lazy"> Qwen-VLChat-Int4</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-2</td><td>56.5</td><td>25.3</td><td>-</td><td>-</td></tr>
+                  <tr><td>VLFM</td><td>ICRA'24</td><td>BLIP-2</td><td>-</td><td>52.5</td><td>30.4</td><td>36.4</td><td>17.5</td></tr>
                   <tr><td>GAMap</td><td>NeurIPS'24</td><td>CLIP</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-4V</td><td>53.1</td><td>26.0</td><td>-</td><td>-</td></tr>
                   <tr><td>SG-Nav</td><td>NeurIPS'24</td><td>LLaVA</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-4</td><td>54.0</td><td>24.9</td><td>40.2</td><td>16.0</td></tr>
+                  <tr><td>InstructNav</td><td>CoRL'24</td><td>-</td><td><img src="./static/images/compressed/gpt.png" width="20px" loading="lazy"> GPT-4V</td><td>58.0</td><td>20.9</td><td>-</td><td>-</td></tr>
                   <tr><td>UniGoal</td><td>CVPR'25</td><td>LLaVA</td><td>LLaMA-2</td><td>54.0</td><td>24.9</td><td>41.0</td><td>16.4</td></tr>
-
+                  
                   <tr><td rowspan="2">Multi-Floor</td><td>MFNP</td><td>ICRA'25</td><td><img src="./static/images/compressed/qwen.png" width="20px" loading="lazy"> Qwen-VLChat</td><td><img src="./static/images/compressed/qwen.png" width="20px"> Qwen2-7B</td><td>58.3</td><td>26.7</td><td>41.1</td><td>15.4</td></tr>
 
                   <!-- Highlight Ours -->
